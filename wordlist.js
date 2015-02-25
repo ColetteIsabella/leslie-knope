@@ -1,23 +1,61 @@
 var compliment = [
 "beautiful",
+"brilliant",
+"classy",
+"glowing eyed",
+"kind",
+"passionate",
+"poetic",
+"proud",
 "radiant",
-"proud"
+"rainbow-infused",
+"smart",
+"sophisticated",
+"sweet",
 ];
 
 var insult = [
-"naive",
 "complicated",
-"consistent"
+"consistent",
+"innocent",
+"naive",
+"powerful",
+"rule-breaking",
+"spinster",
+"unique"
 ];
 
 var adjective = [
 "baby",
 "gorgeous",
-"perfect"
+"new born",
+"noble",
+"perfect",
+"powerful",
+"radiant",
+"rule-breaking",
+"strong",
+"stupid-hot",
+"talented",
+"space"
 ];
 
-var animal [
+var animal = [
+"baby",
 "hippo",
-"penguin",
+"land-mermaid",
+"moth",
+"musk ox",
 "orangutan",
+"penguin",
+"punching bag",
+"sunflower",
+"tropical fish",
+"unicorn"
 ];
+
+for (var i = 0; i < compliment.length; i++) {
+  var
+}
+
+<button type="button" onclick="myFunction()">Generate!</button>
