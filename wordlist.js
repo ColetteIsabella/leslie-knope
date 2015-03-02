@@ -54,8 +54,10 @@ var animal = [
 "unicorn"
 ];
 
-for (var i = 0; i < compliment.length; i++) {
-  var
+function getValue()
+{
+var one = compliment[Math.floor(Math.random() * compliment.length)];
+var x=document.getElementById("one");
+alert (x.innerHTML);
 }
-
 <button type="button" onclick="myFunction()">Generate!</button>

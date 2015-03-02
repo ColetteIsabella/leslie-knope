@@ -4,18 +4,22 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>Knope Compliment Generator</title>
+  <script src="/leslie.js"></script>
+  <script src="jquery.js"></script>
 </head>
 <body>
-<form action=>
+
 <h1>Enter the name of your Ann here: </h1><br>
+<form>
 <input type="text" name="firstname">
 <input type="submit" value="Generate">
 </form>
 
-<h2>"Oh "<firstname>" you "<compliment>" "<insult>" "<adjective>" "<animal>"!"</h2>
+<h2>Oh <name="firstname"> you <div id="one">" "<insult>" "<adjective>" "<animal>"!"</h2>
+
+<h1 id="one" onclick="getValue()">Click</h1>
 </body>
 <footer>
-  <script src="/leslie.js"></script>
-  <script src="/wordlist.js"></script>
+
 </footer>
 </html>
