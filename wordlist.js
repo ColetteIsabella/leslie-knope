@@ -54,10 +54,10 @@ var animal = [
 "unicorn"
 ];
 
-function getValue()
-{
-var one = compliment[Math.floor(Math.random() * compliment.length)];
-var x=document.getElementById("one");
-alert (x.innerHTML);
+var firstName =
+
+for (var i = 0; i < )
+
+function create(knopeism){
+  return "Oh" + firstname + "! You" + "compliment" + "insult" + "adjective" + "animal" + "!";
 }
-<button type="button" onclick="myFunction()">Generate!</button>
