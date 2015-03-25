@@ -71,7 +71,3 @@ function knopism() {
 
 console.log("This is a test")
 
-
-
-
-
