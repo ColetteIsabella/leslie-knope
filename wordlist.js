@@ -55,12 +55,21 @@ var animal = [
 "unicorn"
 ];
 
-for (var c = 0; c < compliment.length; c++){
- return("<h2>Oh, you " + compliment[c] + " !</h2>");
+document.getElementById("knopeMe").onclick = function() {knopism() };
+function knopism() {
+  var c = compliment[Math.floor(Math.random() * compliment.length)];
+  var i = insult[Math.floor(Math.random() * insult.length)];
+  var ad = adjective[Math.floor(Math.random() * adjective.length)];
+  var an = animal[Math.floor(Math.random() * animal.length)];
 
+  document.getElementById("knopeMe").innerHTML = ("Oh, you " + c + ", " + i + ", " + ad + " " + an + "!");
 }
 
 
+
+
+
+console.log("This is a test")
 
 
 
