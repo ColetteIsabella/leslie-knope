@@ -1,3 +1,4 @@
+
 var compliment = [
 "beautiful",
 "brilliant",
@@ -54,10 +55,14 @@ var animal = [
 "unicorn"
 ];
 
-var firstName =
+for (var c = 0; c < compliment.length; c++){
+ return("<h2>Oh, you " + compliment[c] + " !</h2>");
 
-for (var i = 0; i < )
-
-function create(knopeism){
-  return "Oh" + firstname + "! You" + "compliment" + "insult" + "adjective" + "animal" + "!";
 }
+
+
+
+
+
+
+
