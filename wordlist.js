@@ -7,23 +7,25 @@ var compliment = [
 "kind",
 "passionate",
 "poetic",
+"powerful",
 "proud",
 "radiant",
 "rainbow-infused",
 "smart",
 "sophisticated",
 "sweet",
+"wonderful"
 ];
 
 var insult = [
 "complicated",
+"confused",
 "consistent",
 "innocent",
 "naive",
-"powerful",
 "rule-breaking",
 "spinster",
-"unique"
+"unique",
 ];
 
 var adjective = [
@@ -55,7 +57,7 @@ var animal = [
 "unicorn"
 ];
 
-document.getElementById("knopeMe").onclick = function() {knopism() };
+
 function knopism() {
   var c = compliment[Math.floor(Math.random() * compliment.length)];
   var i = insult[Math.floor(Math.random() * insult.length)];
