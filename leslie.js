@@ -13,16 +13,21 @@ var compliment = [
 "smart",
 "sophisticated",
 "sweet",
+"wonderful"
 ];
 
 var insult = [
+"awkward",
 "complicated",
 "consistent",
+"eccentric",
 "innocent",
 "naive",
+"perplexing",
 "powerful",
 "rule-breaking",
 "spinster",
+"strange",
 "unique"
 ];
 
@@ -55,7 +60,7 @@ var animal = [
 "unicorn"
 ];
 
-document.getElementById("knopeMe").onclick = function() {knopism() };
+
 function knopism() {
   var c = compliment[Math.floor(Math.random() * compliment.length)];
   var i = insult[Math.floor(Math.random() * insult.length)];
