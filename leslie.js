@@ -55,6 +55,7 @@ $("form").submit(function(event){
   "musk ox",
   "orangutan",
   "penguin",
+  "princess",
   "punching bag",
   "sunflower",
   "tropical fish",
@@ -82,12 +83,6 @@ $("form").submit(function(event){
   }
   var name = $("#name").val();
   var profession = $("#profession").val();
-
-  if (an === "baby"){
-    return profession;
-  } else {
-   profession = "";
-  }
 
   $("#knopeMe").text("Oh " +name+ ", you " + c + ", " + i + ", " + ad + " " + an + " " + profession + "!");
   $("#leslie").attr("src", images[Math.floor(Math.random()*images.length)]);
