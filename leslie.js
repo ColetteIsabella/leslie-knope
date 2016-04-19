@@ -66,7 +66,9 @@ $("form").submit(function(event){
   "images/leslie1.png",
   "images/leslie2.png",
   "images/leslie3.jpg",
-  "images/leslie4.jpg"
+  "images/leslie4.jpg",
+  "images/leslie5.png",
+  "images/leslie6.png"
   ];
 
   $("#button").click(function(){
